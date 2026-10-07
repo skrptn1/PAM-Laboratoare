@@ -1,17 +1,46 @@
-# discount_calculator
+# GemStore
 
-A new Flutter project.
+Aplicatie Flutter pentru laboratorul PAM 2, realizata dupa machetele
+`homepage full.png` si `product full.png` din arhiva Laboratoare 2026.
 
-## Getting Started
+Pornire, din acest director:
 
-This project is a starting point for a Flutter application.
+```sh
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+Verificare si compilare Android:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```sh
+flutter analyze
+flutter test
+flutter build apk --debug
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fotografiile originale sunt incluse local in `assets/images`.
+Fotografia rochiei cu maneci lungi, fotografia hanoracului alb si bannerul
+Summer Collection au fost decupate din macheta, deoarece nu exista separat
+in directorul de imagini primit. Fontul Poppins si licenta sa sunt incluse
+in `assets/fonts`.
+
+Laboratorul 2 contine exact doua ecrane: Home si macheta fixa Sportwear Set.
+Apasarea oricarui produs de pe Home deschide aceeasi pagina Sportwear Set,
+cu pretul de 80 USD si informatiile fixe din macheta. Sageata inapoi revine
+la Home. Nu exista catalog sau alte pagini in acest laborator.
+
+Categoria, culoarea, marimea, inima, indicatorii galeriei si sectiunile au
+valori fixe. Show all, meniul, produsele similare, Add To Cart, Read more,
+notificarile si Write a review sunt elemente vizuale fara actiuni.
+Navigarea este instantanee (PageRouteBuilder cu durate zero). Nu exista
+Hero, efecte la apasare sau indicatori animati de incarcare. Derularea nu
+foloseste efecte de overscroll.
+Continutul poate fi derulat pentru vizualizarea machetelor complete.
+Datele dinamice si functionalitatile se afla separat in Laborator 3.
+
+Fotografia Sportwear Set se afiseaza integral in carduri. Exportul primit
+pentru Sport Sweater continea numai un fragment de 52 px latime; cardul
+foloseste o fotografie completa alternativa, inclusa local.
+
+Testele verifica afisarea la latimi de 320, 375 si 390 px si navigarea
+catre detaliile unui produs.
