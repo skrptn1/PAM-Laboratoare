@@ -1,0 +1,226 @@
+{
+  "homePage": {
+    "storeName": "GemStore",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "selected": true,
+        "iconUrl": "https://api.iconify.design/mdi/account-supervisor-outline.svg?color=%2333333B&width=64"
+      },
+      {
+        "id": "men",
+        "name": "Men",
+        "selected": false,
+        "iconUrl": "https://api.iconify.design/mdi/account-outline.svg?color=%239CA1AA&width=64"
+      },
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "selected": false,
+        "iconUrl": "https://api.iconify.design/mdi/glasses.svg?color=%239CA1AA&width=64"
+      },
+      {
+        "id": "beauty",
+        "name": "Beauty",
+        "selected": false,
+        "iconUrl": "https://api.iconify.design/mdi/lipstick.svg?color=%239CA1AA&width=64"
+      }
+    ],
+    "heroBanner": {
+      "id": "autumn-collection-2021",
+      "title": "Autumn Collection 2021",
+      "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80",
+      "action": "View collection",
+      "slides": 3,
+      "activeSlide": 0
+    },
+    "featureProducts": [
+      {
+        "id": "p001",
+        "name": "Turtleneck Sweater",
+        "price": 39.99,
+        "currency": "USD",
+        "imageUrl": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "p002",
+        "name": "Long Sleeve Dress",
+        "price": 45.0,
+        "currency": "USD",
+        "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "p003",
+        "name": "Sportwear Set",
+        "price": 80.0,
+        "currency": "USD",
+        "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "newCollection": {
+      "label": "NEW COLLECTION",
+      "title": "HANG OUT & PARTY",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80"
+    },
+    "recommended": [
+      {
+        "id": "p004",
+        "name": "White fashion hoodie",
+        "price": 29.0,
+        "currency": "USD",
+        "imageUrl": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "p005",
+        "name": "Cotton T-shirt",
+        "price": 30.0,
+        "currency": "USD",
+        "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80"
+      }
+    ],
+    "topCollections": [
+      {
+        "id": "c001",
+        "label": "Sale up to 40%",
+        "title": "FOR SLIM & BEAUTY",
+        "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "id": "c002",
+        "label": "Summer Collection 2021",
+        "title": "Most sexy & fabulous design",
+        "imageUrl": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1200&q=80"
+      }
+    ],
+    "categoryPromos": [
+      {
+        "id": "cp001",
+        "category": "T-Shirts",
+        "title": "The Office Life",
+        "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "cp002",
+        "category": "Dresses",
+        "title": "Elegant Design",
+        "imageUrl": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  },
+  "productPage": {
+    "product": {
+      "id": "p003",
+      "name": "Sportwear Set",
+      "price": 80.0,
+      "currency": "USD",
+      "mainImageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=80",
+      "galleryImageUrls": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "rating": 4.9,
+      "ratingCount": 83,
+      "reviewCount": 47,
+      "description": "Sportswear is no longer under culture, it is no longer indie or cobbled together as it once was. Sport is fashion today. The top is oversized in fit and style, many need to size down.",
+      "descriptionExpanded": false,
+      "availableColors": [
+        {
+          "id": "beige",
+          "name": "Beige",
+          "value": "#E9C5AC"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "value": "#000000"
+        },
+        {
+          "id": "coral",
+          "name": "Coral",
+          "value": "#EF6262"
+        }
+      ],
+      "selectedColor": "beige",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "L",
+      "sizeAvailability": {
+        "S": false,
+        "M": false,
+        "L": true
+      },
+      "ratingBreakdown": [
+        {
+          "stars": 5,
+          "percentage": 80
+        },
+        {
+          "stars": 4,
+          "percentage": 12
+        },
+        {
+          "stars": 3,
+          "percentage": 5
+        },
+        {
+          "stars": 2,
+          "percentage": 3
+        },
+        {
+          "stars": 1,
+          "percentage": 0
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r001",
+          "author": "Jennifer Rose",
+          "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80",
+          "rating": 5.0,
+          "createdAtLabel": "5m ago",
+          "text": "I love it. Awesome customer service!! Helped me out with adding an additional item to my order. Thanks again!"
+        },
+        {
+          "id": "r002",
+          "author": "Kelly Rihanna",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80",
+          "rating": 5.0,
+          "createdAtLabel": "9m ago",
+          "text": "I'm very happy with order, It was delivered on and good quality. Recommended!"
+        }
+      ],
+      "similarProducts": [
+        {
+          "id": "p006",
+          "name": "Rise Crop Hoodie",
+          "price": 43.0,
+          "currency": "USD",
+          "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "p007",
+          "name": "Gym Crop Top",
+          "price": 39.99,
+          "currency": "USD",
+          "imageUrl": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "p008",
+          "name": "Sport Sweatshirt",
+          "price": 47.99,
+          "currency": "USD",
+          "imageUrl": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "actions": {
+        "isFavorite": true,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      }
+    }
+  }
+}

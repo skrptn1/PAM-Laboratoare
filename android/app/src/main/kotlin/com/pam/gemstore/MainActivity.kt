@@ -1,4 +1,4 @@
-package md.utm.pam.discount_calculator
+package com.pam.gemstore
 
 import io.flutter.embedding.android.FlutterActivity
 
